@@ -1,9 +1,9 @@
 # Site settings
-title: Jekyll Website Template
+title: Luxury Desert Mountain Rental
 email: support@zebradog.com
-description: 
+description:
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://code.zebradog.com" # the base hostname & protocol for your site
+url: "https://www.luxurydesertmountainrental.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
