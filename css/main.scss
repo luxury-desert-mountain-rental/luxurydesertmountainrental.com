@@ -6,6 +6,18 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "lib/pixelarity-elemental";
 
+body{
+  background-color:#2a2929;
+  background-image: url("../img/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.4) 5%, rgba(0, 228, 255, 0.25)), url("../img/bg.jpg");
+	background-image: url("../img/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.4) 5%, rgba(0, 228, 255, 0.25)), url("../img/bg.jpg");
+	background-image: url("../img/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.4) 5%, rgba(0, 228, 255, 0.25)), url("../img/bg.jpg");
+	background-image: url("../img/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.4) 5%, rgba(0, 228, 255, 0.25)), url("../img/bg.jpg");
+	background-repeat: repeat,			no-repeat,			no-repeat;
+	background-size: 100px 100px, cover,				cover;
+	background-position: top left,		center center,		bottom center;
+	background-attachment: fixed,			fixed,				fixed;
+}
+
 #header{
   .logo{
     position: relative;
@@ -17,10 +29,13 @@
     border-radius:0;
     position: absolute;
     left: 5px;
-    top: 18px;
+    top: 24px;
   }
 }
 
+#header.alt>nav>ul>li a, #header.alt>nav>ul>li.active a, #footer a, #footer{
+  color:#fff;
+}
 #main>header{
   .logo{
     margin:0 0 12px 0;
