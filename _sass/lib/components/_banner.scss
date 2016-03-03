@@ -11,14 +11,14 @@
 		@include color-typography(accent4);
 		@include padding(7em, 0);
 		@include vendor('background-image', (
-			'linear-gradient(to top, rgba(74,74,74,0.50), rgba(74,74,74,0.50))',
-			'url("../../img/pic01.jpg")'
+			'url("../img/pic01.jpg")'
 		));
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		position: relative;
 		text-align: center;
+		height:483px;
 
 		h2 {
 			font-size: 2.5em;
