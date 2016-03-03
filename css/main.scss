@@ -6,6 +6,21 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "lib/pixelarity-elemental";
 
+#header{
+  .logo{
+    position: relative;
+    padding: 0 0 0 20px;
+  }
+  .logo:before{
+    content:url(../img/favicon.png);
+    background:none;
+    border-radius:0;
+    position: absolute;
+    left: 5px;
+    top: 18px;
+  }
+}
+
 #main>header{
   .logo{
     margin:0 0 12px 0;
