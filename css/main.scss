@@ -5,3 +5,32 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "lib/pixelarity-elemental";
+
+#main>header{
+  .logo{
+    margin:0 0 12px 0;
+    width:100%;
+    position:relative;
+    text-align:center;
+    font-size:0.6em;
+
+    h1{
+      font-size: 1.1em;
+    }
+
+  }
+  .logo:before{
+    content:'';
+    background:none;
+    background-image:url(../img/logo.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+    border-radius:0;
+    color:#000;
+    height: 111px;
+    width:90%;
+    max-width:592px;
+    margin:0 auto;
+  }
+}

@@ -1,11 +1,8 @@
-# Site settings
 title: Luxury Desert Mountain Rental
 email: support@zebradog.com
 description:
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.luxurydesertmountainrental.com" # the base hostname & protocol for your site
-
-# Build settings
+baseurl: "/luxurydesertmountarental.com"
+url: "https://www.luxurydesertmountainrental.com"
 markdown: kramdown
 sass:
   style: compressed
