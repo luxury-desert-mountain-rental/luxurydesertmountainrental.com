@@ -1,10 +1,13 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "lib/pixelarity-elemental";
+
 
 body{
   background-color:#2a2929;
@@ -24,19 +27,21 @@ body{
 h1,h2,.button{
   text-transform:uppercase;
 }
-
+section h1,section h2{
+  font-family: 'Playfair Display', serif;
+  font-weight:normal;
+  letter-spacing:1.8pt;
+}
 #header{
   .logo{
     position: relative;
-    padding: 0 0 0 20px;
+    font-family: 'Playfair Display', serif;
   }
   .logo:before{
-    content:url(../img/favicon.png);
+    content:'';
     background:none;
     border-radius:0;
     position: absolute;
-    left: 5px;
-    top: 24px;
   }
 }
 
@@ -70,4 +75,16 @@ h1,h2,.button{
     max-width:592px;
     margin:0 auto;
   }
+}
+
+thead{
+  font-weight:bold;
+}
+
+.button.special{
+  background-color:#acacac;
+}
+
+.button.special:hover{
+  background-color:#8a8a8a;
 }
